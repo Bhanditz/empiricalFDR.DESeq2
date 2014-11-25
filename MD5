@@ -1,0 +1,12 @@
+e7fd052a482e140381a8caa08ea4e076 *DESCRIPTION
+66cc07d52f571dacddbeb670b49666a0 *NAMESPACE
+7ea1b2e5ed6c41007bcd79b9ba37e0ac *R/empiricalFDR.DESeq2-internal.R
+bf921cbca727d72f80d2b3139b0bd9ed *R/empiricalFDR.R
+0f2cc55a8eaab7fe4c744f7af5a20264 *R/fdrBiCurve.R
+77439ad1909901d24f8b6e8adaaa4094 *R/fdrTable.R
+57741f4bfe1cbe6cda757bd0ec64727f *R/simulateCounts.R
+238397c03c5d60d2208d5b395f63374b *man/empiricalFDR.DESeq2-package.Rd
+02f5818dff392fc28f8df2fe86c5345c *man/empiricalFDR.Rd
+72d0d4b4848c20772ca3d48569b80f35 *man/fdrBiCurve.Rd
+d449c3ebef4c71ffc8cc175eadd98af7 *man/fdrTable.Rd
+c5c08e1751ee6476dcf1b03c8b365dc9 *man/simulateCounts.Rd
