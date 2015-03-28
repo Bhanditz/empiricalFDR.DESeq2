@@ -21,7 +21,7 @@ Additional plotting parameters.
 }
 }
 \value{
-The plot is designed to ascertain that the number of positives in real data indeed exceeds the number of false positives across the range of p-value cutoffs.
+The plot is designed to ascertain that the number of discoveries in real data (black line) indeed exceeds the number of false positives (red line) across the range of p-value cutoffs. The grey dotted line is the number of discoveries expected under uniform distribution of p-values.
 }
 \references{
 R. M. Wright, G. V. Aglyamova, E. Meyer and M. V. Matz (2015) Local and systemic gene expression responses to a white-syndrome-like disease in a reef-bulding coral, Acropora hyacinthus. 

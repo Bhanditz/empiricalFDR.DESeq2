@@ -7,7 +7,7 @@ Computing the p-value cutoff to achieve a given FDR.
 This function calculates the cutoff at which a particular false discovery rate is observed using loess smoothing and interpolation.
 }
 \usage{
-empiricalFDR(fdr.table, FDR = 0.1, maxLogP = 5, plot = FALSE, ...)
+empiricalFDR(fdr.table, FDR = 0.1, maxLogP = 5, plot = FALSE, span = 0.1, ...)
 }
 \arguments{
   \item{fdr.table}{
@@ -21,6 +21,9 @@ Maximal negative decimal logarithm of the p-value for plotting (the default, 5, 
 }
   \item{plot}{
 Whether to produce a plot.
+}
+  \item{span}{
+span parameter for loess smoothing.
 }
   \item{\dots}{
 Additional plotting parameters.
