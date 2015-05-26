@@ -12,8 +12,8 @@ Auxiliary functions for the DESeq2 package to simulate read counts according to 
 \tabular{ll}{
 Package: \tab empiricalFDR.DESeq2\cr
 Type: \tab Package\cr
-Version: \tab 1.0.1\cr
-Date: \tab 2015-03-28\cr
+Version: \tab 1.0.2\cr
+Date: \tab 2015-04-01\cr
 License: \tab GPL-3\cr
 }
 The key function is simulateCounts, which takes a fitted DESeq2 data object as an input and returns a simulated data object with the same sample size factors, total counts and dispersions for each gene as in real data, but without the effect of predictor variables. Functions fdrTable, fdrBiCurve and empiricalFDR compare the DESeq2 results obtained for the real and simulated data, compute the empirical false discovery rate (the ratio of the number of differentially expressed genes detected in the simulated data and their number in the real data) and plot the results. 
